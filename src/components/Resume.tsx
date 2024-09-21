@@ -1,36 +1,14 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import profile from '../assets/profile.png';
 
-const Home: React.FC = () => (
+const Resume: React.FC = () => (
   <div>
     <Header />
     <main>
-      <section className="hero bg-neutral-900 text-zinc-50 text-center py-20">
-        <div className="container mx-auto">
-          <h1 className="text-4xl font-bold">Welcome to <span className='text-4xl font-bold text-blue-700'>Shahid Shaik</span>'s Portfolio</h1>
-          <p className="mt-4 text-lg"><span className='text-lg font-bold text-blue-700'>Full Stack Developer</span> | Web Enthusiast</p>
-        </div>
-      </section>
-      <section className="highlight bg-neutral-900 text-white text-center">
-        <div className="flex flex row gap-14 sm:w-full w-full container mx-auto">
-          <div className="w-full sm:w-1/2 ">
-          <h1 className='text-sm sm:text-4xl font-semi-bold text-left  text-zinc-50'>Innovative Full Stack Developer with extensive experience in designing, developing, and deploying highly responsive, user-centric web applications.</h1>
-            <p className="mb-4 text-start text-[14px] pt-4 text-zinc-300">
-               Proficient in React.js, Node.js, and Java, with a proven track record of delivering scalable solutions that meet both client and user needs. Adept at working independently and in cross-functional teams, with a strong commitment to continuous learning and improvement. Looking to leverage my skills and experience to make a significant impact at a leading tech company.
-            </p>
-          </div>
-          <div className="w-full sm:w-1/2 ">
-            <img src={profile} alt='profile' className='h-[70%] w-[95%] rounded-2xl'/>
-           </div>
-         
-        </div>
-      </section>
-
       <section className="py-8">
         <div className="container mx-auto">
-          <h2 className="text-3xl font-bold mb-4">About Me</h2>
+          <h2 className="text-3xl font-bold mb-4">Resume</h2>
           <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
             <h3 className="text-xl font-semibold">Professional Summary</h3>
             <p className="mb-4">
@@ -88,4 +66,4 @@ const Home: React.FC = () => (
   </div>
 );
 
-export default Home;
+export default Resume;
